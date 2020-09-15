@@ -39,7 +39,17 @@ public class GiangVien {
         return monGiangDay;
     }
 
-    public void setMonGiangDay(String monGiangDay) {
+    public void setMonGiangDayNhe(String monGiangDay) {
         this.monGiangDay = monGiangDay;
+    }
+
+    @Override
+    public String toString() {
+        return "GiangVien{" +
+                "id='" + id + '\'' +
+                ", ten='" + ten + '\'' +
+                ", namSinh='" + namSinh + '\'' +
+                ", monGiangDay='" + monGiangDay + '\'' +
+                '}';
     }
 }
