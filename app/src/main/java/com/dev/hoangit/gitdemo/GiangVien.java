@@ -2,7 +2,7 @@ package com.dev.hoangit.gitdemo;
 
 public class GiangVien {
 
-    String id, ten, namSinh, monGiangDay;
+    String id, ten, namSinh, monGiangDay, soThich;
     int soNamKinhNghiem;
     private int age;
 
@@ -12,6 +12,14 @@ public class GiangVien {
         this.namSinh = namSinh;
         this.monGiangDay = monGiangDay;
         this.age = age;
+    }
+
+    public String getSoThich() {
+        return soThich;
+    }
+
+    public void setSoThich(String soThich) {
+        this.soThich = soThich;
     }
 
     public int getSoNamKinhNghiem() {
