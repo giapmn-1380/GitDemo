@@ -4,11 +4,14 @@ public class GiangVien {
 
     String id, ten, namSinh, monGiangDay;
     int soNamKinhNghiem;
-    public GiangVien(String id, String ten, String namSinh, String monGiangDay) {
+    private int age;
+
+    public GiangVien(String id, String ten, String namSinh, String monGiangDay, int age) {
         this.id = id;
         this.ten = ten;
         this.namSinh = namSinh;
         this.monGiangDay = monGiangDay;
+        this.age = age;
     }
 
     public int getSoNamKinhNghiem() {
@@ -59,5 +62,17 @@ public class GiangVien {
                 ", namSinh='" + namSinh + '\'' +
                 ", monGiangDay='" + monGiangDay + '\'' +
                 '}';
+    }
+
+    public void setMonGiangDay(String monGiangDay) {
+        this.monGiangDay = monGiangDay;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
