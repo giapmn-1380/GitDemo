@@ -3,12 +3,20 @@ package com.dev.hoangit.gitdemo;
 public class GiangVien {
 
     String id, ten, namSinh, monGiangDay;
-
+    int soNamKinhNghiem;
     public GiangVien(String id, String ten, String namSinh, String monGiangDay) {
         this.id = id;
         this.ten = ten;
         this.namSinh = namSinh;
         this.monGiangDay = monGiangDay;
+    }
+
+    public int getSoNamKinhNghiem() {
+        return soNamKinhNghiem;
+    }
+
+    public void setSoNamKinhNghiem(int soNamKinhNghiem) {
+        this.soNamKinhNghiem = soNamKinhNghiem;
     }
 
     public String getId() {
