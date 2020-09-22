@@ -5,6 +5,7 @@ public class GiangVien {
     String id, ten, namSinh, monGiangDay, soThich;
     int soNamKinhNghiem;
     private int age;
+    // contructor
 
     public GiangVien(String id, String ten, String namSinh, String monGiangDay, int age) {
         this.id = id;
